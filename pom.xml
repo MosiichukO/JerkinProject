@@ -36,8 +36,11 @@
                 <configuration>
                     <testResultsTimestamp>false</testResultsTimestamp>
                     <propertiesUser>
+                        <!--suppress UnresolvedMavenProperty -->
                         <Threadcount>${Threadcount}</Threadcount>
+                        <!--suppress UnresolvedMavenProperty -->
                         <Loopcount>${Loopcount}</Loopcount>
+                        <!--suppress UnresolvedMavenProperty -->
                         <Rampup>${RampUp}</Rampup>
                     </propertiesUser>
                 </configuration>
